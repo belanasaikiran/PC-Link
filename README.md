@@ -2,6 +2,15 @@
 A Linux app that synchronises the incoming texts and calls from your android phone.
 
 
+### Architecture
+
+![Architecture](./Flow/Architecture.png)
+
+### Tech Stack
+
+![Tech_Stack](./Flow/TechStack.png)
+
+
 ### Possile Implementation for GUI:
 
 1. Dear ImGUI:
