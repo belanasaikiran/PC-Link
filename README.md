@@ -1,5 +1,5 @@
 # PC-Link
-A Linux app that synchronises the incoming texts and calls from your android phone.
+A Linux app that synchronises the incoming texts and calls from your android phone. 
 
 
 ### Architecture
@@ -11,36 +11,18 @@ A Linux app that synchronises the incoming texts and calls from your android pho
 ![Tech_Stack](./Flow/TechStack.png)
 
 
-### Possible Implementation for GUI
 
-1. Flutter:
+### Programming Language & Framework
 
-    > Programming Language: Dart
+<div style="display: flex; gap: 16px; margin-bottom: 16px;">
+<img src="docs/images/Dart.png"  alt="Dart" width="200px" style="background-color: white" />
+<img src="docs/images/flutter.gif"  alt="Flutter" width="200px" style="background-color: white" />
+<img src="docs/images/SQLite.png"  alt="SqLite" width="200px" style="background-color: white" />
+</div>
 
-    > Database: SQLite
+We can use flutter to build native desktop applications which are much better than electron based or react-native implementations. 
 
-    Upon on basic search on internet, we can use flutter to build native desktop applications which are much better than electron based or react-native. 
-
-    For both Mobile and Desktop applications, I will be using Flutter. I'm completely new at the time of writing this but I'll eventually learn and implement the logic for this application. 
-
-
-2. Dear ImGUI:
-
-    [Dear ImGui](https://github.com/ocornut/imgui): Bloat-free Graphical User interface for C++ with minimal dependencies. 
-
-    Setup for ImGUI:
-
-    I'll be using `glut` library for the rendering. 
-
-    ```bash
-    sudo apt install freeglut3-dev g++ make cmake
-    ```
-
-    [Optionally `x11` for docker container]
-
-    ```bash
-    sudo apt install x11 x11-apps
-    ```
+For both Mobile and Desktop applications, I will be using Flutter. I'm completely new at the time of writing this but I'll eventually learn and implement the logic for this application. 
 
 
 ## Contributions / Collaboration
