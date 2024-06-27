@@ -1,5 +1,5 @@
 # PC-Link
-A Linux app that synchronises the incoming texts and calls from your android phone. 
+A Cross-platform app that synchronises the incoming texts and calls from your android phone. 
 
 
 ### Programming Language & Framework
