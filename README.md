@@ -2,6 +2,12 @@
 A Cross-platform app that synchronises the incoming texts and calls from your android phone. 
 
 
+### App names:
+ Mobile: HarmonySync
+ PC: HarmonyLink
+
+
+
 ### Programming Language & Framework
 
 <div style="display: flex; gap: 16px; margin-bottom: 16px;">
