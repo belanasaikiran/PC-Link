@@ -16,7 +16,6 @@ class _IntroScreenState extends State<IntroScreen> {
 
   void _setBluetooth(String deviceSelected) {
     setState(() {
-      Navigator.pop(context);
       Navigator.pushNamed(context, "/SetBluetooth",
           arguments: {'deviceSelected': deviceSelected});
     });
@@ -71,7 +70,7 @@ class _IntroScreenState extends State<IntroScreen> {
                         style: ElevatedButton.styleFrom(
                             shape: RoundedRectangleBorder(
                               borderRadius:
-                                  BorderRadius.circular(5), // button's shape
+                                  BorderRadius.circular(5), // Button's shape
                             ),
                             elevation: 5,
                             backgroundColor: Colors.white,
@@ -100,7 +99,7 @@ class _IntroScreenState extends State<IntroScreen> {
                                   BorderRadius.circular(5), // button's shape
                             ),
                             elevation: 5,
-                            backgroundColor: Colors.green[700],
+                            backgroundColor: Color.fromRGBO(143, 175, 106, 1.0),
                             padding: EdgeInsets.all(16.0)),
                       ),
                     ),
