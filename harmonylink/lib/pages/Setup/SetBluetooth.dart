@@ -1,6 +1,7 @@
-// ignore_for_file: prefer_const_constructors, unnecessary_const
+// ignore_for_file: prefer_const_constructors, unnecessary_const, unused_import
 
 import 'package:flutter/material.dart';
+import 'package:bluetooth_low_energy/bluetooth_low_energy.dart';
 
 class SetBluetooth extends StatefulWidget {
   final String? deviceSelected;
@@ -163,8 +164,8 @@ class _SetBluetoothState extends State<SetBluetooth> {
     return Padding(
       padding: const EdgeInsets.all(4.0),
       child: Container(
-        height: 50,
-        width: 40,
+        height: 52,
+        width: 36,
         child: AspectRatio(
           aspectRatio: 1.0,
           child: TextField(
@@ -177,7 +178,7 @@ class _SetBluetoothState extends State<SetBluetooth> {
                 FocusScope.of(context).previousFocus();
               }
             },
-            showCursor: false,
+            showCursor: true,
             readOnly: false,
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 16),
